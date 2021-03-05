@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite1]" parallel="classes">
+  <test name="Test1(failed)" parallel="classes">
+    <classes>
+      <class name="Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo2 -->
+      <class name="Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo -->
+      <class name="Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+          <include name="googleSearch3"/>
+        </methods>
+      </class> <!-- Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo3 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

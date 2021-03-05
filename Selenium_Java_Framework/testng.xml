@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite1" parallel="classes">
+  <test name="Test1">
+    <classes>
+      <class name="Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo2"/>
+      <class name="Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo"/>
+       <class name="Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo3"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="Selenium_Java_Framework.Selenium_Java_Framework.TestNgDemo"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
