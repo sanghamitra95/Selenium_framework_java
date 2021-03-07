@@ -16,7 +16,7 @@ public class TestNgDemo {
 	static WebDriver driver=null;
 	 @BeforeTest
 		public void setUpTest()
-		{
+		{   //test
 		String projectPath=System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", projectPath+"//drivers//chromedriver//chromedriver.exe");
 	    driver=new ChromeDriver();
