@@ -9,7 +9,7 @@ public class NumberPattern1 {
 			for(int j=9;j<=i;j++)//for columns
 			{
 				System.out.println(j+"");
-			}
+			} /// test
 			System.out.println("");
 		}
 
